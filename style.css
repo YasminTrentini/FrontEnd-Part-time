@@ -14,8 +14,6 @@ body{
     background-size:contain;
     background-color: rgba(207, 203, 203, 0.616);
 }
-
-
 header{
     padding: 15px;
     background-color: rgb(60, 92, 60);
@@ -40,7 +38,6 @@ p{
     padding: 10rem;
 }
 .imagens{
-    display: flexbox;
     justify-content:space-between;
     margin: 50px;
     padding: 10 px;
@@ -60,12 +57,16 @@ button{
     padding: 5px;
     width: 150px;
     height: 60px;
-    border-radius: 5px;
-    justify-content: center;
+    border-radius: 8px;
 }
 button :hover{
     color: red ;
-    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
+}
+.botao:hover{
+    color: red;
+    transition: all 0.3s ease-in-out;
+
 }
 h3{
     font-size: 30px;
@@ -81,14 +82,18 @@ ul{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
+section{
+    display:grid;
+}
 .site{
     width: 100px;
     height: 100px;
-    margin: 15px 300px 15px 400px;
-    padding: 10px;
-    display:flexbox;
-    justify-content:space-around;
+    padding: 20px;
 }
+a{
+    grid-column: 2;
+}
+
 footer{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;

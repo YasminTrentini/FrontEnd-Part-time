@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <!--Link css-->
+    <link rel="stylesheet" href="./styles.css">
+    <!--link favicon-->
+    <link rel="shortcut icon" href="../img/LOGO VALE DO CAFÉ COM LEITE arrumada.png" type="image/x-icon">
+
+</head>
+<body>
+    <main>
+        <img src="../img/LOGO VALE DO CAFÉ COM LEITE arrumada.png" alt="logo">
+        <section>
+            <div>
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>Cadastre-se</legend>
+                        <div>
+                            <label for="nome">Nome: </label>
+                            <input type="text" name="nome">
+                        </div>
+                        <div>
+                            <label for="email">Email: </label>
+                            <input type="text" nome="email">    
+                        </div>   
+                        <div>
+                            <label for="telefone">Telefone: </label>
+                            <input type="number" name="telefone">
+                        </div>
+                        <div> 
+                            <label for="data">Data de Nascimento: </label>
+                            <input type="date" name="data" id="dataNascimento">
+                        </div>
+                        <div> 
+                            <label for="maioridade">Maior de 18 anos?</label>
+                            <label for="sim"><input type="checkbox" name="maioridade" id="maioridade">Sim <input type="checkbox" name="não" id="não">Não</label>
+                        </div> 
+                    </fieldset> 
+                        <div>
+                            <label for="descrição">Qual ponto turistico você tem interesse?</label>
+                            <select name="pontoTurisctico" id="ponto">
+                            <option value="Cachoeira Boca da onça">Cachoeira Boca da onça</option>
+                            <option value="Pedra do encontro">Pedra do encontro</option>
+                            <option value="Pedra do mirante">Pedra do mirante</option>
+                            <option value="Mina dos Moreiras">Mina dos Moreiras</option>
+                            <option value="Igreja de São Sebastião">Igreja de São Sebastião</option>
+                        </div> 
+                        </select>
+                        <div>
+                            <textarea name="pontos" id="pontos" cols="30" rows="10">O que gostaris de conhecer na cidade?</textarea>
+                        </div>   
+                            <a href="#"><button>Enviar</button></a>
+                            <a href="#"><button>Cancelar</button></a>
+                        </form>
+            </div>
+        </section>
+        <footer> &copy; By Yasmin Trentini , Roberth Cruz e Mateus - 2021 - CTD.</footer>
+    </main>
+</body>
+</html>
