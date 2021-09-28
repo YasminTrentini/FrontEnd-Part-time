@@ -11,12 +11,14 @@
     <link rel="shortcut icon" href="../img/LOGO VALE DO CAFÉ COM LEITE arrumada.png" type="image/x-icon">
 
 </head>
-<body>
+<body class="form">
     <main>
-        <img src="../img/LOGO VALE DO CAFÉ COM LEITE arrumada.png" alt="logo">
+    
+            <img  class="zoom" src="../img/LOGO VALE DO CAFÉ COM LEITE arrumada.png" alt="logo">
+  
         <section>
             <div>
-                <form action="#" method="POST">
+                <form action="#" method="POST" id="formulario">
                     <fieldset>
                         <legend>Cadastre-se</legend>
                         <div>
@@ -40,8 +42,8 @@
                             <label for="sim"><input type="checkbox" name="maioridade" id="maioridade">Sim <input type="checkbox" name="não" id="não">Não</label>
                         </div> 
                     </fieldset> 
-                        <div>
-                            <label for="descrição">Qual ponto turistico você tem interesse?</label>
+                        <div id="selecao">
+                            <label for="descrição">Escolha um ponto turistico do seu interesse?</label>
                             <select name="pontoTurisctico" id="ponto">
                             <option value="Cachoeira Boca da onça">Cachoeira Boca da onça</option>
                             <option value="Pedra do encontro">Pedra do encontro</option>
@@ -51,10 +53,11 @@
                         </div> 
                         </select>
                         <div>
-                            <textarea name="pontos" id="pontos" cols="30" rows="10">O que gostaris de conhecer na cidade?</textarea>
-                        </div>   
-                            <a href="#"><button>Enviar</button></a>
-                            <a href="#"><button>Cancelar</button></a>
+                            <h4>Me diga no campo abaixo o que te chamou atenção nesse local?</h4>
+                            <textarea name="pontos" id="pontos" cols="30" rows="10">O que gostaria de conhecer desse local?</textarea>
+                        </div>
+                            <a href="./conclusão/index.html"><input id="btn1" type="button" value="Enviar"></a>
+                            <button type="reset">Cancelar</button>
                         </form>
             </div>
         </section>

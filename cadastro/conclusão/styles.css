@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(86, 117, 86, 0.61);
+    width: 700px;
+    margin-left: 350px;
+    margin-right: auto;
+}
+img{
+    width: 1200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: carinha 0.8s 2;
+}
+@keyframes carinha{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        transform: translateY(-25px); opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+
